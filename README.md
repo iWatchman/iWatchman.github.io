@@ -43,7 +43,7 @@ Under normal use, the server will send push notifications to the user's device w
 
 ![App Banner](assets/watchman_banner.png)
 
-The user has the ability to pull up a list view of the logged videos. Selecting one will load a detail view of the video, allow the user to title it, and save notes about it. This is shown in the following images:
+The user has the ability to pull up a list view of the logged videos. Selecting one will load a detail view of the video, allow the user to view the video by tapping it, and save notes about it. This is shown in the following images:
 
 ![App Listview](assets/watchman_listview.png)
 
