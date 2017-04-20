@@ -32,6 +32,31 @@ $ python watchman.py
 ```
 The script will automatically connect to the IP cameras listed in configuration file and begin classification.
 
+
+In order to set up the notification server, make sure you have Node.js, Yarn, PM2 installed on the server.
+
+Node.js installation:
+```markdown
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+Yarn installation:
+```markdown
+$ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+PM2 installation:
+```markdown
+$ npm install pm2 -g
+```
+Finally, install dependencies for this project using Yarn and run the server.
+
+```markdown
+$ yarn install
+$ yarn startserver
+```
+All the endpoints will be available through http://localhost:8080
+
 ### App
 
 Download the iOS app [here](https://github.com/iWatchman/iWatchman-iOS), installation instructions for which can be found 
