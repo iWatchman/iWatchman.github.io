@@ -33,18 +33,20 @@ $ python watchman.py
 The script will automatically connect to the IP cameras listed in configuration file and begin classification.
 
 ### App
-App setup requires a connection to the messaging server. The settings menu will show currently connected cameras guide you through the setup of each camera by clicking the plus. You need the same connection info as the server configuration file:
 
-![App Settings](assets/watchman_settings.png)
+Download the iOS app [here](https://github.com/iWatchman/iWatchman-iOS), installation instructions for which can be found 
+[here](https://github.com/iWatchman/iWatchman-iOS/blob/master/README.md)
 
 ### Using Watchman
 
 Under normal use, the server will send push notifications to the user's device when it detects events in the video feed.
 
-![App Banner](assets/watchman_banner.png)
+![App Notification](assets/watchman_notification.png)
 
-The user has the ability to pull up a list view of the logged videos. Selecting one will load a detail view of the video, allow the user to view the video by tapping it, and save notes about it. This is shown in the following images:
+The user has the ability to pull up a list view of the logged videos. Selecting one will load a detail view of the video, allow the user to view the video by tapping it. This is shown in the following images:
 
 ![App Listview](assets/watchman_listview.png)
 
 ![App Detailview](assets/watchman_detailview.png)
+
+![View Video](assets/watchman_videoview.png)
