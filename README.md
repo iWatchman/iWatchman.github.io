@@ -49,4 +49,4 @@ The user has the ability to pull up a list view of the logged videos. Selecting 
 
 ![App Detailview](assets/watchman_detailview.png)
 
-![View Video](assets/watchman_videoview.png)
+![View Video](assets/watchman_viewvideo.png)
