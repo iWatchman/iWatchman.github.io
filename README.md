@@ -50,7 +50,7 @@ PM2 installation:
 ```markdown
 $ npm install pm2 -g
 ```
-Finally, install dependencies for this project using Yarn and run the server.
+Finally, install dependencies for this project using Yarn and run the application.
 
 ```markdown
 $ yarn install
